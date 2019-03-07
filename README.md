@@ -1,10 +1,6 @@
 # css-type-loader
 css type loader for genrate .d.ts file for css module.  
 
-<strong>module idea from:</strong>
-- [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader)
-- [css-modules-typescript-loader](https://github.com/seek-oss/css-modules-typescript-loader)
-
 ## Installation
 ```npm install css-type-loader```
 
@@ -30,3 +26,6 @@ module.exports = {
   }
 };
 ```
+## Thanks for
+- [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader)
+- [css-modules-typescript-loader](https://github.com/seek-oss/css-modules-typescript-loader)
