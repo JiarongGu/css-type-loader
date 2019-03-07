@@ -1,0 +1,41 @@
+{
+  "name": "css-type-loader",
+  "version": "1.0.1",
+  "description": "react/redux utils for less boilerplate",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "node ./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiarongGu/css-type-loader.git"
+  },
+  "keywords": [
+    "Typescript",
+    "TypeScript",
+    "CSS Modules",
+    "CSS Modules typings",
+    "Webpack",
+    "Webpack loader",
+    "Webpack css module typings loader",
+    "typescript webpack typings",
+    "css modules webpack typings"
+  ],
+  "author": "Jiarong Gu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiarongGu/css-type-loader/issues"
+  },
+  "homepage": "https://github.com/JiarongGu/css-type-loader#readme",
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "devDependencies": {
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.3333"
+  }
+}
