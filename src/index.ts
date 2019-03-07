@@ -29,9 +29,9 @@ export default function (content, ...rest) {
   {
     const reservedWordKeys = getReservedWordKeys(cssWordKeys);
     logger('warn', 
-      'Your css contains classes which are reserved words in JavaScript. Consequently the following classes will not be available as named exports:\n'
-      + `${reservedWordKeys.map(rwd => ` - "${rwd}"`).join('\n')}`
-      + `These can be accessed using the object literal syntax; eg styles['delete'] instead of styles.delete.`);
+      ('\nYour css contains classes which are reserved words in JavaScript.\n' as any).yellow
+      + `${reservedWordKeys.map(rwd => ` - "${rwd}"`).join('\n').red}`
+      + (`These can be accessed using the object literal syntax; eg styles['delete'] instead of styles.delete.` as any).yellow);
   }
 
   // get typing exports
