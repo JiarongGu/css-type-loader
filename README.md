@@ -27,6 +27,12 @@ module.exports = {
   }
 };
 ```
+
+## Propose of this repo
+1. To generate types thats vaild syntax in Typescirpt
+2. To sync with the newest css-loader
+
+
 ## Thanks for
 - [typings-for-css-modules-loader](https://github.com/Jimdo/typings-for-css-modules-loader)
 - [css-modules-typescript-loader](https://github.com/seek-oss/css-modules-typescript-loader)
