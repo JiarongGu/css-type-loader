@@ -17,7 +17,8 @@ module.exports = {
           {
             loader: 'css-loader',
             options: {
-              modules: true
+              modules: true,
+              camelCase: true // this is required for convert dashs to camelCase
             }
           }
         ]
