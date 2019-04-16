@@ -1,5 +1,4 @@
 import * as path from 'path';
-import { reservedWords } from './reservedWords';
 
 export function getCssModuleKeys(content) {
   // get local exports
@@ -28,16 +27,6 @@ export function filterNonWordKeys(cssModuleKeys) {
   const filteredClassNames = cssModuleKeys.filter(classname => allWordsRegexp.test(classname));
   return filteredClassNames;
 };
-
-export function filterReservedWordKeys(cssModuleKeys) {
-  const filteredClassNames = cssModuleKeys.filter(classname => reservedWords.indexOf(classname) === -1);
-  return filteredClassNames;
-}
-
-export function getReservedWordKeys(cssModuleKeys) {
-  const filteredClassNames = cssModuleKeys.filter(classname => reservedWords.indexOf(classname) !== -1);
-  return filteredClassNames;
-}
 
 export function getTypingFilename(filename) {
   const dirName = path.dirname(filename);

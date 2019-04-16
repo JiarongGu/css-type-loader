@@ -1,6 +1,6 @@
 {
   "name": "css-type-loader",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "react/redux utils for less boilerplate",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -31,9 +31,6 @@
     "url": "https://github.com/JiarongGu/css-type-loader/issues"
   },
   "homepage": "https://github.com/JiarongGu/css-type-loader#readme",
-  "dependencies": {
-    "chalk": "^2.*"
-  },
   "devDependencies": {
     "@types/node": "*",
     "typescript": "^3.3.3333",
