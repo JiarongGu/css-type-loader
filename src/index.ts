@@ -23,7 +23,7 @@ export default function (content, ...rest) {
 
   const cssInterface = `interface CssExports {\n${fields.join('\n')}\n}`;
 
-  const cssModuleExport = 'declare var cssExports: CssExports;\nexport = cssExports;\n';
+  const cssModuleExport = '\n\ndeclare var cssExports: CssExports;\nexport = cssExports;\n';
 
   const cssModuleDefinition = bannerMessage + cssInterface + cssModuleExport;
 
