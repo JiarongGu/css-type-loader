@@ -1,4 +1,5 @@
 # css-type-loader
+[![npm version](https://badge.fury.io/js/css-type-loader.svg)](https://www.npmjs.com/package/css-type-loader)
 css type loader for genrate .d.ts file for css module.  
 
 ## Installation
